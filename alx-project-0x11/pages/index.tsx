@@ -49,7 +49,7 @@ const Home: React.FC = () => {
             value={prompt}
             onChange={(e) => setPrompt(e.target.value)}
             placeholder="Enter your prompt here..."
-            className="w-full p-3 border border-gray-300 rounded-lg mb-4"
+            className="text-gray-800 w-full p-3 border border-gray-300 rounded-lg mb-4"
           />
           <button
             onClick={handleGenerateImage}
